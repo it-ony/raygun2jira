@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Raygun2Jira options</title>
+
+    <style>
+        label {
+            min-width: 100px;
+            display: inline-block;
+        }
+
+        div {
+            margin-bottom: 1em;
+        }
+
+        .buttons {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="server">Server</label>
+        <input type="text" id="server" placeholder="https://jira.yourserver.com"/>
+    </div>
+
+    <div>
+        <label for="projects">Project</label>
+        <select id="projects"></select>
+    </div>
+
+    <div>
+        <label for="issueTypes">Issue Type</label>
+        <select id="issueTypes"></select>
+    </div>
+
+    <div class="buttons">
+        <button id="save">Save</button>
+    </div>
+
+
+    <script src="options.js"></script>
+
+</body>
+</html>
