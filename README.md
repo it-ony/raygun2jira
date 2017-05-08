@@ -1,6 +1,6 @@
 # Raygun2Jira
 
-[Raygun2Jira Icon](/icon.svg?raw=true)
+[Raygun2Jira Icon](/logo.svg?raw=true)
 
 A chrome extension to create a [Jira](https://de.atlassian.com/software/jira) issue out 
 of your [raygun](https://raygun.io) bug report.
