@@ -4,6 +4,8 @@
 
 A chrome extension to create a [Jira](https://de.atlassian.com/software/jira) issue out 
 of your [raygun](https://raygun.io) bug report.
+
+[Install the extension](https://chrome.google.com/webstore/detail/raygun2jira/ndccegieolaafdhogkhckidmfbefeigo) in your chrome browser.
  
 ## Why not using the Iira integration offered by raygun
 
