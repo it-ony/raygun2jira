@@ -30,9 +30,10 @@
             var component = document.querySelector(".header-button-application__text").textContent.trim();
             var summary = document.querySelector(".ei-header-title").textContent.trim();
 
-            var stackTrace = Array.prototype.slice.call(document.querySelectorAll(".st-container .st-line")).map(function(l) {
-                return l.textContent;
-            }).join("\n");
+            var stackTrace = Array.prototype.slice.call(document.querySelectorAll(".js-stacktrace-container-region .js-stacktrace-info-text")).map(function(l) {
+                return l.textContent
+            }).join("");
+
 
             var description = [
                 "See " + window.location.href  + " for full details",
